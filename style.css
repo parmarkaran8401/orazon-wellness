@@ -59,13 +59,22 @@ img{
               HEADER
 ==========================================*/
 
-.hero{
+..hero{
 
     min-height:100vh;
-    background:linear-gradient(135deg,#ffffff,#f8faf9);
+
+    background:
+    radial-gradient(circle at top right,
+    rgba(201,162,39,.15),
+    transparent 35%),
+
+    radial-gradient(circle at bottom left,
+    rgba(15,81,50,.08),
+    transparent 40%),
+
+    linear-gradient(135deg,#ffffff,#f8faf9);
 
 }
-
 /*=========================================
               NAVBAR
 ==========================================*/
@@ -97,7 +106,7 @@ img{
 }
 .logo img{
 
-    width:110px;
+    width:80px;
     height:auto;
     display:block;
 
@@ -160,322 +169,15 @@ img{
 /*=========================================
             HERO SECTION
 ==========================================*/
-
 .hero-section{
-
-    max-width:1400px;
-
-    margin:auto;
-
-    padding:80px 8%;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    gap:70px;
-
-}
-
-.hero-left{
-
-    flex:1;
-
-}
-
-.hero-top{
-
-    color:var(--gold);
-
-    font-weight:700;
-
-    letter-spacing:2px;
-
-}
-
-.hero-left h1{
-
-    font-size:72px;
-
-    color:var(--dark);
-
-    line-height:1.1;
-
-    margin:20px 0;
-
-}
-
-.hero-left p{
-
-    font-size:20px;
-
-    line-height:1.8;
-
-    color:#666;
-
-    margin-bottom:40px;
-
-}
-
-.hero-buttons{
-
-    display:flex;
-
-    gap:20px;
-
-}
-
-.primary-btn{
-
-    background:var(--green);
-
-    color:#fff;
-
-    padding:18px 35px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    transition:.35s;
-
-}
-
-.primary-btn:hover{
-
-    background:var(--gold);
-
-    color:var(--dark);
-
-}
-
-.secondary-btn{
-
-    border:2px solid var(--green);
-
-    color:var(--green);
-
-    padding:18px 35px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    transition:.35s;
-
-}
-
-.secondary-btn:hover{
-
-    background:var(--green);
-
-    color:#fff;
-
-}
-
-.hero-right{
-
-    flex:1;
-
-    display:flex;
-
-    justify-content:center;
-
-}
-
-.hero-placeholder{
-
-    width:520px;
-
-    height:520px;
-
-    border-radius:35px;
-
-    background:#fff;
-
-    border:2px dashed var(--gold);
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:28px;
-
-    color:var(--green);
-
-    box-shadow:var(--shadow);
-
-}
-/*=========================================
-        ORAZON WELLNESS
-   Apple + Rolex + Forever Style
-==========================================*/
-
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-/* Reset */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#F8F9FA;
-    color:#1F2937;
-    overflow-x:hidden;
-}
-
-a{
-    text-decoration:none;
-}
-
-ul{
-    list-style:none;
-}
-
-img{
-    max-width:100%;
-    display:block;
-}
-
-/*=========================================
-              COLORS
-==========================================*/
-
-:root{
-
-    --green:#0F5132;
-    --dark:#0B3D2E;
-    --gold:#C9A227;
-    --white:#ffffff;
-    --light:#F8F9FA;
-    --text:#1F2937;
-
-    --shadow:0 15px 40px rgba(0,0,0,.08);
-
-}
-
-/*=========================================
-              HEADER
-==========================================*/
-
-.hero{
-
-    min-height:100vh;
-    background:linear-gradient(135deg,#ffffff,#f8faf9);
-
-}
-
-/*=========================================
-              NAVBAR
-==========================================*/
-
-.navbar{
 
     width:100%;
-    height:90px;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    padding:0 8%;
-
-    position:sticky;
-    top:0;
-
-    background:rgba(255,255,255,.92);
-
-    backdrop-filter:blur(20px);
-
-    border-bottom:1px solid rgba(0,0,0,.05);
-
-    z-index:999;
-
-}
-
-.logo img{
-
-    width:180px;
-
-}
-
-.nav-menu{
-
-    display:flex;
-    gap:40px;
-
-}
-
-.nav-menu a{
-
-    color:var(--text);
-
-    font-weight:600;
-
-    transition:.35s;
-
-}
-
-.nav-menu a:hover{
-
-    color:var(--green);
-
-}
-
-.nav-menu .active{
-
-    color:var(--green);
-
-}
-
-.nav-btn{
-
-    background:var(--green);
-
-    color:#fff;
-
-    padding:15px 28px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    transition:.35s;
-
-}
-
-.nav-btn:hover{
-
-    background:var(--gold);
-
-    color:var(--dark);
-
-}
-
-/*=========================================
-            HERO SECTION
-==========================================*/
-
-.hero-section{
-
-    max-width:1400px;
+    max-width:1450px;
 
     margin:auto;
 
-    padding:80px 8%;
+    padding:70px 6%;
 
     display:flex;
 
@@ -483,10 +185,9 @@ img{
 
     align-items:center;
 
-    gap:70px;
+    gap:80px;
 
 }
-
 .hero-left{
 
     flex:1;
@@ -595,9 +296,8 @@ img{
 
 .hero-placeholder{
 
-    width:520px;
-
-    height:520px;
+    width:580px;
+    height:580px;
 
     border-radius:35px;
 
@@ -617,7 +317,19 @@ img{
 
     box-shadow:var(--shadow);
 
+    transition:.4s;
+
+    cursor:pointer;
+        
 }
+.hero-placeholder:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
 /*=========================================
             FEATURES SECTION
 =========================================*/

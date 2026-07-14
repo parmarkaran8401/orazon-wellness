@@ -346,3 +346,76 @@ ul{
     filter:blur(40px);
 
 }
+/*=========================================
+        MOBILE RESPONSIVE
+=========================================*/
+
+@media (max-width:768px){
+
+    .navbar{
+
+        padding:15px 5%;
+        flex-direction:column;
+        gap:15px;
+
+    }
+
+    .logo img{
+
+        width:50px;
+
+    }
+
+    .logo span{
+
+        font-size:18px;
+
+    }
+
+    .navbar ul{
+
+        gap:18px;
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+
+    .navbar ul li a{
+
+        font-size:14px;
+
+    }
+
+    .hero-content{
+
+        padding:180px 8% 80px;
+
+    }
+
+    .left h4{
+
+        font-size:18px;
+
+    }
+
+    .left h1{
+
+        font-size:48px;
+        line-height:1.15;
+
+    }
+
+    .left p{
+
+        font-size:18px;
+
+    }
+
+    .btn{
+
+        padding:16px 34px;
+        font-size:16px;
+
+    }
+
+}

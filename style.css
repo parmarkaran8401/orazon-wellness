@@ -90,6 +90,16 @@ body{
     transition:0.3s;
 }
 
+.btn{
+    background:#f4c542;
+    color:#0b3d2e;
+    padding:15px 35px;
+    border-radius:50px;
+    font-weight:700;
+    text-decoration:none;
+    transition:0.3s;
+}
+
 .btn:hover{
     background:#ffd700;
     transform:translateY(-3px);

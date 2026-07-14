@@ -68,3 +68,281 @@ ul{
     margin:auto;
 
 }
+/*=========================================
+            PREMIUM NAVBAR
+=========================================*/
+
+.hero{
+
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#ffffff,#f4f7f5);
+
+}
+
+.navbar{
+
+    width:100%;
+
+    padding:20px 8%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo img{
+
+    width:60px;
+
+}
+
+.logo span{
+
+    font-size:26px;
+
+    font-weight:700;
+
+    color:var(--dark);
+
+    letter-spacing:.5px;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:40px;
+
+}
+
+.navbar ul li a{
+
+    color:var(--text);
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    position:relative;
+
+}
+
+.navbar ul li a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:3px;
+
+    background:var(--gold);
+
+    border-radius:20px;
+
+    transition:.35s;
+
+}
+
+.navbar ul li a:hover{
+
+    color:var(--primary);
+
+}
+
+.navbar ul li a:hover::after{
+
+    width:100%;
+
+}
+/*=========================================
+            HERO SECTION
+=========================================*/
+
+.hero-content{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:140px 8% 80px;
+
+}
+
+.left{
+
+    max-width:850px;
+
+}
+
+.left h4{
+
+    color:var(--gold);
+
+    font-size:22px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:20px;
+
+}
+
+.left h1{
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    color:var(--dark);
+
+    margin-bottom:25px;
+
+}
+
+.left p{
+
+    font-size:20px;
+
+    color:#555;
+
+    line-height:1.8;
+
+    max-width:700px;
+
+    margin:0 auto 45px;
+
+}
+
+/*=========================================
+            PREMIUM BUTTON
+=========================================*/
+
+.btn{
+
+    display:inline-block;
+
+    padding:18px 42px;
+
+    background:var(--primary);
+
+    color:var(--white);
+
+    border-radius:50px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.btn:hover{
+
+    background:var(--gold);
+
+    color:var(--dark);
+
+    transform:translateY(-6px);
+
+}
+
+/*=========================================
+            HERO DECORATION
+=========================================*/
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+
+    height:420px;
+
+    background:rgba(201,162,39,.08);
+
+    border-radius:50%;
+
+    top:-120px;
+
+    right:-120px;
+
+    filter:blur(40px);
+
+}
+
+.hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    background:rgba(15,81,50,.08);
+
+    border-radius:50%;
+
+    bottom:-120px;
+
+    left:-120px;
+
+    filter:blur(40px);
+
+}

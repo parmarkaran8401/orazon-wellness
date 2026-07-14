@@ -356,18 +356,35 @@ font-size:42px;
 }
 /* ===== Contact Section ===== */
 
-.contact{
-    padding:80px 8%;
-    text-align:center;
-    background:#ffffff;
-}
-
-.contact h2{
-    font-size:40px;
-    color:#0b5d2a;
-    margin-bottom:20px;
-}
-
 .contact p{
     max-width:700px;
-    margin:0 auto 
+    margin:0 auto 30px;
+    line-height:1.8;
+}
+
+.contact-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.contact-buttons .btn{
+    min-width:220px;
+    text-align:center;
+}
+
+@media (max-width:768px){
+
+    .contact-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .contact-buttons .btn{
+        width:90%;
+        max-width:320px;
+    }
+
+}

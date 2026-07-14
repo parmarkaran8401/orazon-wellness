@@ -12,7 +12,7 @@ body{
 
 .hero{
     min-height:100vh;
-    background:linear-gradient(135deg,#0b5d2a,#1f8f46);
+    background: linear-gradient(135deg,#0a3b2a,#14532d,#166534);
     color:white;
     padding:30px 8%;
 }
@@ -81,13 +81,18 @@ body{
 }
 
 .btn{
-    display:inline-block;
-    background:#ffd700;
-    color:#000;
+    background:#f4c542;
+    color:#0b3d2e;
     padding:15px 35px;
     border-radius:50px;
-    text-decoration:none;
     font-weight:700;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#ffd700;
+    transform:translateY(-3px);
 }
 
 .right img{

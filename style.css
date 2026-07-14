@@ -12,11 +12,13 @@ body{
 
 .hero{
     min-height:100vh;
-    background: linear-gradient(135deg,#0a3b2a,#14532d,#166534);
-    color:white;
     padding:30px 8%;
+    color:white;
+    background:
+    radial-gradient(circle at top right, rgba(255,215,0,.18), transparent 35%),
+    radial-gradient(circle at bottom left, rgba(255,255,255,.08), transparent 40%),
+    linear-gradient(135deg,#06381d,#0b5d2a,#177d3d);
 }
-
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -81,28 +83,20 @@ body{
 }
 
 .btn{
-    background:#f4c542;
-    color:#0b3d2e;
-    padding:15px 35px;
+    display:inline-block;
+    background:linear-gradient(135deg,#FFD54F,#FFC107);
+    color:#111;
+    padding:16px 38px;
     border-radius:50px;
-    font-weight:700;
     text-decoration:none;
-    transition:0.3s;
-}
-
-.btn{
-    background:#f4c542;
-    color:#0b3d2e;
-    padding:15px 35px;
-    border-radius:50px;
     font-weight:700;
-    text-decoration:none;
-    transition:0.3s;
+    transition:.35s;
+    box-shadow:0 15px 30px rgba(255,193,7,.35);
 }
 
 .btn:hover{
-    background:#ffd700;
-    transform:translateY(-3px);
+    transform:translateY(-5px);
+    box-shadow:0 20px 40px rgba(255,193,7,.45);
 }
 
 .right img{

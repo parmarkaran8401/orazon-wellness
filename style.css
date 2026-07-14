@@ -354,3 +354,20 @@ font-size:42px;
     }
 
 }
+/* ===== Contact Section ===== */
+
+.contact{
+    padding:80px 8%;
+    text-align:center;
+    background:#ffffff;
+}
+
+.contact h2{
+    font-size:40px;
+    color:#0b5d2a;
+    margin-bottom:20px;
+}
+
+.contact p{
+    max-width:700px;
+    margin:0 auto 

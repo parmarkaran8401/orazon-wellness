@@ -755,8 +755,8 @@ img{
     /* Premium Logo */
 
     .logo{
-    width:68px;
-    height:68px;
+    width:56px;
+    height:56px;
 
     display:flex;
     justify-content:center;
@@ -770,8 +770,8 @@ img{
 }
 
 .logo img{
-    width:52px;
-    height:52px;
+    width:42px;
+    height:42px;
 
     object-fit:contain;
     border-radius:50%;

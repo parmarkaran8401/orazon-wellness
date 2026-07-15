@@ -569,37 +569,87 @@ img{
     transform:scale(1.12);
 
 }
-/*=========================
-   MOBILE NAVBAR
-=========================*/
+
+/* ================= MOBILE ================= */
 
 .menu-toggle{
-
     display:none;
-    font-size:30px;
+    font-size:28px;
     color:var(--green);
     cursor:pointer;
-
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
 
     .menu-toggle{
-
         display:block;
-
     }
 
     .nav-btn{
-
         display:none;
-
     }
 
     .nav-menu{
-
+        position:absolute;
+        top:85px;
+        left:0;
+        width:100%;
+        background:#fff;
+        flex-direction:column;
+        gap:20px;
+        padding:25px 0;
         display:none;
-
+        box-shadow:0 10px 25px rgba(0,0,0,.08);
     }
 
+    .nav-menu.show-menu{
+        display:flex;
+    }
+
+    .hero-section{
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero-left h1{
+        font-size:46px;
+    }
+
+    .hero-left p{
+        font-size:17px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .primary-btn,
+    .secondary-btn{
+        padding:14px 24px;
+    }
+
+    .hero-placeholder{
+        width:100%;
+        max-width:340px;
+        height:340px;
+    }
+
+    .features-grid{
+        grid-template-columns:1fr;
+        gap:25px;
+    }
+
+    .feature-card{
+        padding:35px;
+    }
+
+    .cta h2{
+        font-size:36px;
+    }
+
+    .footer{
+        text-align:center;
+    }
 }

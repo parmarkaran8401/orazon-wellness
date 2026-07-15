@@ -692,18 +692,29 @@ img{
         gap:40px;
         padding:50px 6%;
     }
-    .hero-image{
+    /* Hero Image Mobile */
+
+.hero-image{
+    width:100%;
+    max-width:100%;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-image img{
+    width:90%;
     max-width:340px;
-    padding:10px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    border-radius:20px;
 }
 
 .hero-image::after{
-    width:140px;
-    height:140px;
-    top:-30px;
-    right:-30px;
+    display:none;
 }
-
     .hero-left h1{
         font-size:42px;
         line-height:1.2;

@@ -59,7 +59,7 @@ img{
               HEADER
 ==========================================*/
 
-..hero{
+.hero{
 
     min-height:100vh;
 
@@ -97,7 +97,6 @@ img{
 
     backdrop-filter:blur(15px);
     border-bottom:2px solid rgba(212,175,55,.35);
-    border-bottom:1px solid #ececec;
 
     box-shadow:0 5px 20px rgba(0,0,0,.05);
 
@@ -589,9 +588,15 @@ img{
         display:none;
     }
 
-    .logo img{
-        width:65px;
-    }
+    .logo{
+    width:72px;
+    height:72px;
+}
+
+.logo img{
+    width:56px;
+    height:56px;
+}
 
     .nav-menu{
         position:absolute;
@@ -663,20 +668,7 @@ img{
     .footer{
         text-align:center;
     }
-}
-.logo{
-
-    width:60px;
-    height:60px;
-
-}
-
-.logo img{
-
-    width:48px;
-    height:48px;
-
-}
+        
 /*=========================
      PREMIUM LOGO
 =========================*/

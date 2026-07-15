@@ -164,7 +164,33 @@ img{
     color:var(--dark);
 
 }
+/*=========================
+      BRAND TEXT
+=========================*/
 
+.brand-text{
+    display:flex;
+    flex-direction:column;
+    margin-left:18px;
+    flex:1;
+}
+
+.brand-text h2{
+    font-size:28px;
+    font-weight:800;
+    color:var(--dark);
+    letter-spacing:2px;
+    line-height:1;
+}
+
+.brand-text p{
+    margin-top:6px;
+    color:var(--gold);
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
 /*=========================================
             HERO SECTION
 ==========================================*/

@@ -96,7 +96,7 @@ img{
     background:rgba(255,255,255,.95);
 
     backdrop-filter:blur(15px);
-
+    border-bottom:2px solid rgba(212,175,55,.35);
     border-bottom:1px solid #ececec;
 
     box-shadow:0 5px 20px rgba(0,0,0,.05);
@@ -165,7 +165,7 @@ img{
     color:var(--dark);
 
 }
-border-bottom:2px solid rgba(212,175,55,.35);
+
 /*=========================================
             HERO SECTION
 ==========================================*/
@@ -666,15 +666,15 @@ border-bottom:2px solid rgba(212,175,55,.35);
 }
 .logo{
 
-    width:70px;
-    height:70px;
+    width:60px;
+    height:60px;
 
 }
 
 .logo img{
 
-    width:56px;
-    height:56px;
+    width:48px;
+    height:48px;
 
 }
 /*=========================

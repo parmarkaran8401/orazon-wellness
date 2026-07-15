@@ -165,7 +165,7 @@ img{
     color:var(--dark);
 
 }
-
+border-bottom:2px solid rgba(212,175,55,.35);
 /*=========================================
             HERO SECTION
 ==========================================*/
@@ -663,4 +663,64 @@ img{
     .footer{
         text-align:center;
     }
+}
+.logo{
+
+    width:70px;
+    height:70px;
+
+}
+
+.logo img{
+
+    width:56px;
+    height:56px;
+
+}
+/*=========================
+     PREMIUM LOGO
+=========================*/
+
+.logo{
+
+    width:90px;
+    height:90px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(145deg,#fffef8,#ffffff);
+
+    border:3px solid #d4af37;
+
+    border-radius:50%;
+
+    box-shadow:
+    0 6px 20px rgba(212,175,55,.35),
+    0 10px 25px rgba(0,0,0,.10);
+
+    transition:.35s;
+
+}
+
+.logo:hover{
+
+    transform:translateY(-3px) scale(1.05);
+
+    box-shadow:
+    0 10px 30px rgba(212,175,55,.45),
+    0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.logo img{
+
+    width:72px;
+    height:72px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
 }

@@ -692,6 +692,17 @@ img{
         gap:40px;
         padding:50px 6%;
     }
+    .hero-image{
+    max-width:340px;
+    padding:10px;
+}
+
+.hero-image::after{
+    width:140px;
+    height:140px;
+    top:-30px;
+    right:-30px;
+}
 
     .hero-left h1{
         font-size:42px;

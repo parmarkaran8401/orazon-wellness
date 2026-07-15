@@ -799,5 +799,17 @@ img{
         text-align:center;
         padding:40px 6%;
     }
+.brand-text{
+    margin-left:12px;
+}
 
+.brand-text h2{
+    font-size:16px;
+    letter-spacing:1px;
+}
+
+.brand-text p{
+    font-size:9px;
+    letter-spacing:1px;
+}
 }

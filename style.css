@@ -589,6 +589,10 @@ img{
         display:none;
     }
 
+    .logo img{
+        width:65px;
+    }
+
     .nav-menu{
         position:absolute;
         top:85px;
@@ -607,17 +611,24 @@ img{
     }
 
     .hero-section{
-        flex-direction:column;
+        flex-direction:column-reverse;
         text-align:center;
         gap:40px;
+        padding:50px 6%;
     }
 
     .hero-left h1{
-        font-size:46px;
+        font-size:52px;
+        line-height:1.15;
+    }
+
+    .hero-top{
+        font-size:15px;
+        letter-spacing:2px;
     }
 
     .hero-left p{
-        font-size:17px;
+        font-size:18px;
     }
 
     .hero-buttons{

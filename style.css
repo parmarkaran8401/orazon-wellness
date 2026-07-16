@@ -951,7 +951,7 @@ img{
         rgba(248,245,236,.90)
     ),
 
-    url("images/aloe-bg.jpg");
+    url("images/aloe-bg.jpn");
 
     background-size:cover;
 
@@ -985,7 +985,15 @@ img{
     transparent 50%);
 
     pointer-events:none;
+    
+    z-index:0;
 
+}
+
+.products-title,
+.category-grid{
+    position:relative;
+    z-index:2;
 }
 
 .products-title{

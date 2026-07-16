@@ -20,8 +20,9 @@ html{
 }
 
 body{
-    background:#F8F9FA;
-    color:#1F2937;
+    font-family:'Poppins',sans-serif;
+    background:#f7f5ef;
+    color:#222;
     overflow-x:hidden;
 }
 
@@ -459,7 +460,7 @@ img{
 
 .section-title h2{
 
-    font-size:48px;
+    font-size:56px;
 
     color:var(--dark);
 
@@ -935,8 +936,14 @@ img{
 
 .products-page{
     padding:90px 8%;
-    background:linear-gradient(to bottom,#ffffff,#f7f9f8);
     min-height:100vh;
+
+    background:linear-gradient(
+        180deg,
+        #fffdf7 0%,
+        #f8f6f1 50%,
+        #f3efe6 100%
+    );
 }
 
 .products-title{
@@ -994,22 +1001,21 @@ img{
 
     transition:.4s;
 
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
 
-    border:1px solid rgba(0,0,0,.05);
+    border:1px solid rgba(212,175,55,.15);
 
 }
 
 .category-card:hover{
 
-    transform:translateY(-10px);
+    transform:translateY(-12px) scale(1.02);
 
-    box-shadow:0 20px 45px rgba(0,0,0,.15);
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
 
     border-color:#d4af37;
 
 }
-
 .category-icon{
 
     width:90px;
@@ -1020,7 +1026,7 @@ img{
 
     border-radius:50%;
 
-    background:#f8f8f8;
+    background:#f9f6ec;
 
     display:flex;
 

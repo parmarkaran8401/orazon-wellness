@@ -536,7 +536,87 @@ img{
     line-height:1.8;
 
 }
+/*=========================================
+          ALOE DRINKS SECTION
+=========================================*/
 
+.aloe-drinks{
+    padding:100px 8%;
+    background:#F8F9FA;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:35px;
+    margin-top:60px;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:28px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.35s;
+    overflow:hidden;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.product-card img{
+    width:220px;
+    height:220px;
+    object-fit:contain;
+    margin:0 auto 20px;
+    transition:.35s;
+}
+
+.product-card:hover img{
+    transform:scale(1.08);
+}
+
+.product-card h3{
+    font-size:24px;
+    color:var(--dark);
+    margin-bottom:12px;
+}
+
+.product-card p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:18px;
+}
+
+.product-card ul{
+    list-style:none;
+    padding:0;
+    margin-bottom:25px;
+}
+
+.product-card ul li{
+    padding:8px 0;
+    color:#444;
+    font-size:15px;
+}
+
+.product-btn{
+    display:inline-block;
+    padding:14px 28px;
+    background:var(--green);
+    color:#fff;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.product-btn:hover{
+    background:var(--gold);
+    color:var(--dark);
+}
 /*=========================================
             CTA SECTION
 =========================================*/
@@ -789,7 +869,29 @@ img{
     .feature-card{
         padding:30px;
     }
+/* Aloe Drinks Mobile */
 
+.aloe-drinks{
+    padding:70px 6%;
+}
+
+.products-grid{
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.product-card{
+    padding:25px;
+}
+
+.product-card img{
+    width:180px;
+    height:180px;
+}
+
+.product-card h3{
+    font-size:22px;
+}
     /* CTA */
 
     .cta{

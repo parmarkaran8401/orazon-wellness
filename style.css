@@ -935,15 +935,57 @@ img{
 }
 
 .products-page{
-    padding:90px 8%;
+
+    position:relative;
+
+    overflow:hidden;
+
     min-height:100vh;
 
-    background:linear-gradient(
-        180deg,
-        #fffdf7 0%,
-        #f8f6f1 50%,
-        #f3efe6 100%
-    );
+    padding:90px 8%;
+
+    background:
+
+    linear-gradient(
+        rgba(255,250,242,.82),
+        rgba(248,245,236,.90)
+    ),
+
+    url("images/aloe-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+}
+.products-page::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(circle at top center,
+    rgba(255,215,100,.35),
+    transparent 40%),
+
+    radial-gradient(circle at bottom left,
+    rgba(15,81,50,.18),
+    transparent 45%),
+
+    radial-gradient(circle at right,
+    rgba(255,255,255,.25),
+    transparent 50%);
+
+    pointer-events:none;
+
 }
 
 .products-title{
@@ -1009,9 +1051,10 @@ img{
 
 .category-card:hover{
 
-    transform:translateY(-12px) scale(1.02);
+    transform:translateY(-14px) scale(1.03);
 
-    box-shadow:0 25px 60px rgba(0,0,0,.15);
+    box-shadow:
+    0 30px 65px rgba(0,0,0,.18);
 
     border-color:#d4af37;
 
